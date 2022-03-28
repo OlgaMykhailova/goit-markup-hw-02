@@ -1,0 +1,122 @@
+/* +основной цвет текста #757575 */
+/* +третий цвет текста #FFFFFF */
+/* +футер цвет текста rgba(255, 255, 255, 0.6)*/
+/* +вторичный цвет текста #212121 */
+/* +цвет акцента #2196F3 */
+/* +основной цвет фона #FFFFFF */
+/* +вторичный цвет фона #F5F4FA */
+/* +третий цвет фона #2F303A */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --third-text-color: #ffffff;
+  --footer-text-color: gba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+
+  font-family: roboto, sans-serif;
+}
+
+/* Убирает подчеркивание у всех ссылок */
+
+.link {
+  text-decoration: none;
+}
+
+/* Убирает точки у немаркированного списка */
+.list {
+  list-style: none;
+}
+
+/* Хедер */
+
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+
+  font-family: railway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-black {
+  color: var(--secondary-text-color);
+}
+
+/* Навигация */
+.site-nav,
+.header-contacts {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+
+/* Страница Портфолио */
+
+/* Наши проекты*/
+
+/* Кнопки */
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-bg-color);
+
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+/* Список проектов */
+.portf-title {
+  color: var(--secondary-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portf-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/* Футер */
+
+.logo-white {
+  color: var(--third-text-color);
+}
+.footer {
+  background-color: var(--third-bg-color);
+}
+.footer-address {
+  color: var(--third-text-color);
+}
+.footer-contacts {
+  color: var(--footer-text-color);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
