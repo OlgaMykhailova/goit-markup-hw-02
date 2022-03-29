@@ -44,6 +44,7 @@ body {
 /* Навигация */
 .site-nav,
 .header-contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -72,14 +73,29 @@ body {
 .main-index-title {
   color: var(--third-text-color);
 
+  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.button-main,
+.button-secondary {
+  cursor: pointer;
 }
 .button-secondary {
   color: var(--third-text-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
 }
 
 /* Заголовки h2 */
@@ -87,6 +103,7 @@ body {
 .sec-index-title {
   color: var(--secondary-text-color);
 
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -97,8 +114,9 @@ body {
 .features .third-index-title {
   color: var(--secondary-text-color);
 
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -118,6 +136,7 @@ body {
 .command .third-index-title {
   color: var(--secondary-text-color);
 
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -126,19 +145,20 @@ body {
   color: var(--primary-text-color);
 
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 /* Страница Портфолио */
 
-/* Наши проекты*/
+/* Секция Наши проекты*/
 
 /* Кнопки */
 .button-main {
   color: var(--secondary-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
 
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -152,16 +172,19 @@ body {
 .portf-title {
   color: var(--secondary-text-color);
 
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portf-text {
   color: var(--primary-text-color);
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
 /* Футер */
 
 .logo-white {
@@ -176,6 +199,14 @@ body {
 .footer-contacts {
   color: var(--footer-text-color);
 }
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
 .address {
   font-style: normal;
   font-size: 14px;
