@@ -170,6 +170,7 @@ body {
   background-color: var(--accent-color);
 }
 /* Список проектов */
+
 .portf-title {
   color: var(--secondary-text-color);
 
@@ -184,6 +185,13 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.portf-title:hover,
+.portf-title:focus,
+.portf-text:hover,
+.portf-text:focus {
+  color: var(--accent-color);
 }
 
 /* Футер */
